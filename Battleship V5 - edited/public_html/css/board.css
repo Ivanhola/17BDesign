@@ -1,0 +1,53 @@
+/* everything  */
+* {
+    background: url('');
+    background-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*  Cell Sizes */
+td{
+	height: 40px;
+	width: 50px;
+}
+/*  PLAYER 1 */
+
+#playerTable {
+    
+
+    position: fixed;
+    float: left;
+}
+/*  PLAYER 2 */
+#progressTable {
+	float: right;
+}
+/* 0-9 A-J */
+.xAxis, .yAxis {
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+/*WATER BACKGROUND */
+.waterCell {
+	background-image: url('../pic/water.gif');
+}
+
+.waterCell:hover {
+	background-image: url('../pic/pin.png');
+}
+
+/*  DEMO */
+
+
+/* Battleship Ship DEMO */
+
+
+
+.cell2 {
+	background-image: url('../Battleship/b2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+

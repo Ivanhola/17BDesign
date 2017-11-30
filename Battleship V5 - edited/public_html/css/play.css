@@ -1,0 +1,47 @@
+
+tempGrid{
+    
+}
+#psuedoGrid
+{
+     
+
+    float: left;
+ 
+}
+
+/*        "fake grid" ^^              */
+
+#dashboard {
+    background: black;  
+   /* background-image: url('../pic/Dashboard.jpg'); */
+    background-size: cover;
+	border: 3px solid black;
+	height: 150px;
+	
+}
+/* Temporary background holder */
+#backgroundID {
+   
+	height: 0px;
+	
+}
+
+#tempBackground{
+    
+    background-image: url('../pic/playBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 793px;
+	width: 100%;
+}
+
+/*Audio icon button*/
+#playAudio
+{
+	top: 637px;
+	right: 12px;
+    position: absolute;
+    height: 50px;
+}
+
