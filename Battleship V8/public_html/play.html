@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+	<title>Play Battleship</title>
+        <link rel="stylesheet" type="text/css" href="css/play.css">
+	<link type="text/css" rel="stylesheet" href="css/board.css">
+	<script type="text/javascript" src="js/board.js"></script>
+	<script type="text/javascript" src="js/play.js"></script>
+	
+</head>
+<body>
+   
+	<div id="dashboard">
+		<p id="shipDetail">
+		</p>
+		
+	</div>
+    <div id="backgroundFIX"></div>
+    <div id="backgroundID">
+       
+    <div id="tempBackground"></div>
+    </div>
+   
+    
+ 
+    
+    <div id="backgroundMusic">
+        <audio id="myAudio" autoplay loop>
+ <source src="sounds/battleship.ogg"
+         type='audio/ogg; codecs=vorbis'>
+</audio>
+        <img id="playSound" class="playAudio"  src="https://png.icons8.com/audio/color/1600" alt="" onclick="aud_play_pause()" >
+<script>
+function aud_play_pause() {
+  var myAudio = document.getElementById("myAudio");
+  if (myAudio.paused) {
+      
+    myAudio.play();
+  } else {
+    myAudio.pause();
+  }
+}
+</script>
+    </div>
+</body>
+</html>

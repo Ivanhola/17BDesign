@@ -1,0 +1,50 @@
+
+
+#dashboard {
+    background: black;  
+   /* background-image: url('../pic/Dashboard.jpg'); */
+    background-size: cover;
+	border: 3px solid black;
+	height: 150px;
+	
+}
+/* Temporary background holder */
+#backgroundFIX {
+ background:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+    /*top: 949px;*/
+    top: 974px;
+	height: 100%;
+	width: 100%;
+	
+}
+
+#backgroundID {
+   
+	height: 0px;
+	
+}
+
+#tempBackground{
+    
+    background-image: url('../pic/playBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	/*height: 793px;*/
+        height: 818px;
+	width: 100%;
+}
+
+/*Audio icon button*/
+.playAudio
+{
+    background-image: url('');
+	top: 660px;
+	right: 12px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
